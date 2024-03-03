@@ -25,20 +25,20 @@
 ## 至綠鎮
 
 * 塔巴·夜山 鎮長
-  * ![mayor](image\npc\top_green_town\mayor.png)
+  * ![mayor](image/npc/top_green_town/mayor.png)
 * 城堡指揮官 紅髮·卡斯特蘭·埃斯科伯特
-  * ![red_hair](image\npc\top_green_town\red_hair.jpg)
+  * ![red_hair](image/npc/top_green_town/red_hair.jpg)
 * 德魯伊 隼月
-  * ![druid](image\npc\top_green_town\Eadyan_Falconmoon.jpg)
+  * ![druid](image/npc/top_green_town/Eadyan_Falconmoon.jpg)
 * 阿吉
-  * ![druid](image\npc\top_green_town\OIG2.jpg)
+  * ![druid](image/npc/top_green_town/OIG2.jpg)
 
 
 
 ## 龍巫教
 
 * 蘭德卓薩·青怒
-  * ![half_dragon](image\npc\dragon_witch_religion\half_dragon.png)
+  * ![half_dragon](image/npc/dragon_witch_religion/half_dragon.png)
 
 ## 冒險者小隊設計圖
 * ### 約爾金爵士
