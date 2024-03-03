@@ -17,3 +17,4 @@
 
 # [角色介紹](character_intro.md)
 
+# [戰役記錄](campaign_record.md)
