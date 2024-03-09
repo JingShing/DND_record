@@ -31,7 +31,7 @@
 * 德魯伊 隼月
   * ![druid](image/npc/top_green_town/Eadyan_Falconmoon.jpg)
 * 阿吉
-  * ![druid](image/npc/top_green_town/OIG2.jpg)
+  * ![oig](image\npc\top_green_town\OIG2.png)
 
 
 
