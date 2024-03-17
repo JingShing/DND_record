@@ -38,9 +38,25 @@
 ## 龍巫教
 
 * 蘭德卓薩·青怒
+  * 喜歡和人決鬥的危險分子，純惡的存在。
   * ![half_dragon](image/npc/dragon_witch_religion/half_dragon.png)
 
+* 蒙達斯
+  * 營地領導人，女性，使用斧槍做為武器
+* 瑞茲米爾
+  * 黑龍派系，計畫負責人
+
+
+## 豎琴手同盟
+* 萊奧森
+	* 武僧
+
+
+
+
+
 ## 冒險者小隊設計圖
+
 * ### 約爾金爵士
 
   * <img src="image/player/design/jing.png" style="float:left;">
