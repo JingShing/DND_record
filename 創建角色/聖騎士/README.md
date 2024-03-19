@@ -18,6 +18,7 @@
 
 在知乎上和bilibili上多次提到聖騎士搭配術士的強力流派。聖騎士本身的法術位太少，術士的法術位超級多，可以兼容使用至聖斬，那聖騎士將天下無敵。更別提術士本身的超魔法可以選擇瞬發，聖騎士的附贈動作又可拿來施放加速術和其他增益效果。簡直不要太強。
 
+<<<<<<< HEAD
 ## 參考節選
 
 ``` 我即是正義的化身，凡我斬殺皆為邪惡。
@@ -26,6 +27,16 @@
 無需道德思辨，誰反對聖武士我就打爆他狗頭。
 培羅才有憐憫之心，我沒有！
 原諒你是培羅的事，我負責送你去見培羅。
+=======
+## 半精靈推薦專長
+```
+Everybody's Friend
+UAFFR
+先決條件：半精靈
+You develop your magnetic personality to ease your way through the world. You gain the following benefits:
+你的 魅力 增加1點，上限為20。
+You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.
+>>>>>>> 43fddd27e39c7efbff910743d884bdc48e3c09b9
 ```
 
 ## 參考資料
