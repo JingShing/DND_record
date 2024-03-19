@@ -18,6 +18,16 @@
 
 在知乎上和bilibili上多次提到聖騎士搭配術士的強力流派。聖騎士本身的法術位太少，術士的法術位超級多，可以兼容使用至聖斬，那聖騎士將天下無敵。更別提術士本身的超魔法可以選擇瞬發，聖騎士的附贈動作又可拿來施放加速術和其他增益效果。簡直不要太強。
 
+## 半精靈推薦專長
+```
+Everybody's Friend
+UAFFR
+先決條件：半精靈
+You develop your magnetic personality to ease your way through the world. You gain the following benefits:
+你的 魅力 增加1點，上限為20。
+You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.
+```
+
 ## 參考資料
 
 * [知乎-dnd5e圣武士基础入门](https://zhuanlan.zhihu.com/p/153251526)
