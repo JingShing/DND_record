@@ -629,5 +629,13 @@ GrayPeak Mountains
 DragonGleam
 
 鹿鷹獸
+茶茶狗頭人殺手，獲得一顆激勵骰。
+克雷普森，四手巨魔
+約爾金辦葬禮獲得一顆激勵骰。
+青梅竹馬，塔莉絲。
+白色力量。
+
+红之塞维林Severin the Red、蓝之加尔万Galvan the Blue、绿之内洛维Neronvain the Green、黑之瑞兹米尔Rezmir the Black和白之瓦拉姆Varram the White。
+提瑪亞特萬歲，他必將崛起
 ```
 
