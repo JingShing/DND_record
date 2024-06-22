@@ -1151,129 +1151,6 @@
       }
     },
     {
-      "_id": "Nog0K73jt3mZCfW9",
-      "name": "英雄气概 Heroism",
-      "type": "spell",
-      "flags": {
-        "dnd5e": {},
-        "core": {
-          "sourceId": "Compendium.dnd5e_classpack.new-icon.Item.eatsvLyUqyzEFzCv"
-        }
-      },
-      "img": "modules/dnd5e_classpack/Nicons/002603.png",
-      "effects": [],
-      "system": {
-        "description": {
-          "value": "<div class=\"description \"> 你触碰一个自愿生物使其充满勇气。该生物直至法术终止前免疫恐慌，且它将在其每回合开始时获得临时生命值，其数值等于你的施法关键属性调整值。法术终止时，目标失去所有来自该法术的临时生命值。\n<br /><strong>升环施法效应。</strong>使用2环或更高法术位施展该法术时，你使用的法术位每比1环高一环，就可以额外指定一个目标。\n<br /></div>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "PHB pg. 250"
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "1",
-          "units": "minute"
-        },
-        "target": {
-          "value": "1",
-          "units": "",
-          "type": "creature",
-          "width": null,
-          "prompt": true
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "touch"
-        },
-        "uses": {
-          "value": 0,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null,
-          "scale": false
-        },
-        "ability": "",
-        "actionType": "heal",
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": ""
-        },
-        "damage": {
-          "parts": [
-            [
-              "@mod",
-              "temphp"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "level": 1,
-        "school": "enc",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": false
-        },
-        "scaling": {
-          "mode": "level",
-          "formula": ""
-        },
-        "cover": null,
-        "crewed": false,
-        "properties": [
-          "vocal",
-          "somatic",
-          "concentration"
-        ],
-        "attack": {
-          "bonus": "",
-          "flat": false
-        },
-        "summons": null,
-        "enchantment": null
-      },
-      "ownership": {
-        "default": 0,
-        "GeWA2jI1wFdOxVj5": 3
-      },
-      "folder": null,
-      "sort": 175000,
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "3.1.0",
-        "coreVersion": "12.327",
-        "createdTime": 1710597632984,
-        "modifiedTime": 1711172689370,
-        "lastModifiedBy": "GeWA2jI1wFdOxVj5",
-        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.eatsvLyUqyzEFzCv",
-        "duplicateSource": null
-      }
-    },
-    {
       "_id": "h1bBpYgJQtKCT8sJ",
       "name": "祝福术 Bless",
       "type": "spell",
@@ -10821,221 +10698,6 @@
       }
     },
     {
-      "_id": "HN024vduO5mlaIiT",
-      "name": "神导术 Guidance",
-      "type": "spell",
-      "flags": {
-        "midiProperties": {
-          "confirmTargets": "always",
-          "autoFailFriendly": false,
-          "autoSaveFriendly": false,
-          "critOther": false,
-          "offHandWeapon": false,
-          "magicdam": false,
-          "magiceffect": true,
-          "concentration": true,
-          "noConcentrationCheck": false,
-          "toggleEffect": false,
-          "ignoreTotalCover": false
-        },
-        "midi-qol": {
-          "rollAttackPerTarget": "always",
-          "itemCondition": "",
-          "otherCondition": "",
-          "effectCondition": ""
-        },
-        "dnd5e": {
-          "migratedProperties": [
-            "vocal",
-            "somatic",
-            "concentration"
-          ]
-        }
-      },
-      "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_Chastise.png",
-      "effects": [
-        {
-          "origin": "Compendium.dnd5e_classpack.new-icon.Item.QiU2ZZ09lBye0Iy4",
-          "duration": {
-            "seconds": 60,
-            "startTime": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "disabled": false,
-          "_id": "bA9jGJLPC87StGPe",
-          "changes": [
-            {
-              "key": "system.bonuses.abilities.check",
-              "mode": 2,
-              "value": "+1d4",
-              "priority": 20
-            }
-          ],
-          "tint": "#ffffff",
-          "transfer": false,
-          "flags": {
-            "dfreds-convenient-effects": {
-              "description": ""
-            },
-            "dae": {
-              "selfTarget": false,
-              "selfTargetAlways": false,
-              "stackable": "noneName",
-              "durationExpression": "",
-              "specialDuration": [
-                "isCheck",
-                "isSkill"
-              ],
-              "macroRepeat": "none"
-            },
-            "core": {
-              "statusId": "21344213",
-              "sourceId": "Actor.IOObBuw02XRfRgiy.Item.Kyv24afg6zttEBa2.ActiveEffect.Cttw0OSAXrnydpfp"
-            },
-            "ActiveAuras": {
-              "isAura": false,
-              "aura": "None",
-              "radius": "",
-              "alignment": "",
-              "type": "",
-              "ignoreSelf": false,
-              "height": false,
-              "hidden": false,
-              "displayTemp": false,
-              "hostile": false,
-              "onlyOnce": false
-            }
-          },
-          "name": "神导术 Guidance",
-          "description": "",
-          "statuses": [],
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "12.327",
-            "systemId": "dnd5e",
-            "systemVersion": "3.2.1",
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null
-          },
-          "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_Chastise.png",
-          "type": "base",
-          "system": {},
-          "sort": 0
-        }
-      ],
-      "system": {
-        "description": {
-          "value": "<div class=\"description \"> 你触碰一个自愿的生物。在法术终止前，目标可以选择在一次属性检定时额外掷一粒d4，并将所得数值加入检定结果中。它可以在进行属性检定之前或之后掷骰。法术随后即终止。</div>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "PHB pg. 248"
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "1",
-          "units": "minute"
-        },
-        "target": {
-          "value": "1",
-          "units": "",
-          "type": "creature",
-          "width": null,
-          "prompt": true
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "touch"
-        },
-        "uses": {
-          "value": 0,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null,
-          "scale": false
-        },
-        "ability": "",
-        "actionType": "util",
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": ""
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "level": 0,
-        "school": "div",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": true
-        },
-        "scaling": {
-          "mode": "none",
-          "formula": ""
-        },
-        "properties": [
-          "vocal",
-          "somatic",
-          "mgc"
-        ],
-        "attack": {
-          "bonus": "",
-          "flat": false
-        },
-        "cover": null,
-        "crewed": false,
-        "enchantment": null,
-        "summons": null
-      },
-      "ownership": {
-        "default": 0,
-        "GeWA2jI1wFdOxVj5": 3
-      },
-      "folder": null,
-      "sort": 23600000,
-      "_stats": {
-        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.QiU2ZZ09lBye0Iy4",
-        "duplicateSource": null,
-        "coreVersion": "12.327",
-        "systemId": "dnd5e",
-        "systemVersion": "3.2.1",
-        "createdTime": 1719071035714,
-        "modifiedTime": 1719071035714,
-        "lastModifiedBy": "GeWA2jI1wFdOxVj5"
-      }
-    },
-    {
       "_id": "v3wPlJaJ7mHhDf4M",
       "name": "遗体防腐 Gentle Repose",
       "type": "spell",
@@ -11603,272 +11265,6 @@
       }
     },
     {
-      "_id": "RtcCVryg6vNRXRQ0",
-      "name": "庇护术 Sanctuary",
-      "type": "spell",
-      "img": "modules/dnd5e_classpack/Nicons/ability_racial_holyresistance.jpg",
-      "effects": [],
-      "folder": null,
-      "sort": 13000000,
-      "flags": {
-        "dnd5e": {
-          "migratedProperties": [
-            "vocal",
-            "somatic",
-            "material"
-          ]
-        }
-      },
-      "system": {
-        "description": {
-          "value": "<div class=\"description \"> 你的法术保护一个施法距离内的生物不受攻击。在法术终止前，任何试图对受保护者进行攻击或对受保护者施放伤害性法术的生物都必须进行一次感知豁免。豁免失败则该生物必须选定一个新目标，否则将失去本次的攻击或法术。该法术不能保护受术者免受范围效应（如爆炸或火球）的影响。\n<br />受保护者进行攻击或施放任何影响敌对生物的法术时，该法术随之终止。\n<br /></div>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "PHB pg. 272"
-        },
-        "activation": {
-          "type": "bonus",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "1",
-          "units": "minute"
-        },
-        "target": {
-          "value": "1",
-          "width": null,
-          "units": "",
-          "type": "creature",
-          "prompt": true
-        },
-        "range": {
-          "value": 30,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null,
-          "scale": false
-        },
-        "ability": "",
-        "actionType": "save",
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": ""
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "wis",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "level": 1,
-        "school": "abj",
-        "materials": {
-          "value": "A small silver mirror",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": false
-        },
-        "scaling": {
-          "mode": "none",
-          "formula": ""
-        },
-        "attack": {
-          "bonus": "",
-          "flat": false
-        },
-        "cover": null,
-        "crewed": false,
-        "enchantment": null,
-        "summons": null,
-        "properties": []
-      },
-      "ownership": {
-        "default": 0,
-        "GeWA2jI1wFdOxVj5": 3
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.FbxdKcDpSPWuGTLA",
-        "duplicateSource": null,
-        "coreVersion": "12.327",
-        "systemId": "dnd5e",
-        "systemVersion": "3.2.1",
-        "createdTime": 1719071343326,
-        "modifiedTime": 1719071343326,
-        "lastModifiedBy": "GeWA2jI1wFdOxVj5"
-      }
-    },
-    {
-      "name": "光耀祷词Word of Radiance",
-      "type": "spell",
-      "flags": {
-        "midiProperties": {
-          "confirmTargets": "always",
-          "saveDamage": "nodam",
-          "bonusSaveDamage": "fulldam",
-          "autoFailFriendly": false,
-          "autoSaveFriendly": false,
-          "critOther": false,
-          "offHandWeapon": false,
-          "magicdam": true,
-          "magiceffect": false,
-          "concentration": false,
-          "noConcentrationCheck": false,
-          "toggleEffect": false,
-          "ignoreTotalCover": false
-        },
-        "midi-qol": {
-          "rollAttackPerTarget": "always",
-          "removeAttackDamageButtons": "default",
-          "itemCondition": "",
-          "effectCondition": "",
-          "AoETargetType": "enemy",
-          "AoETargetTypeIncludeSelf": false,
-          "autoTarget": "default"
-        },
-        "dnd5e": {
-          "migratedProperties": [
-            "vocal",
-            "material"
-          ]
-        }
-      },
-      "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
-      "_id": "y7ZKqhOcwkDkTMQb",
-      "effects": [],
-      "system": {
-        "description": {
-          "value": "<p>你念出神圣的词语，灼热的光辉随之喷薄而出。每个你选择的、处于你周围5英尺内、你能看见的生物必须通过一次体质豁免检定，否则受到1d6点光耀伤害。<br />此法术的伤害在你达到5级（2d6），11级（3d6），和17级（4d6）时提高1d6点</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "XGE"
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "target": {
-          "value": "6",
-          "units": "ft",
-          "type": "radius",
-          "width": null,
-          "prompt": true
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "self"
-        },
-        "uses": {
-          "value": 0,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null,
-          "scale": false
-        },
-        "ability": "",
-        "actionType": "save",
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": ""
-        },
-        "damage": {
-          "parts": [
-            [
-              "1d6",
-              "radiant"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "con",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "level": 0,
-        "school": "evo",
-        "materials": {
-          "value": "一块圣徽",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": true
-        },
-        "scaling": {
-          "mode": "cantrip",
-          "formula": "1d6"
-        },
-        "properties": [
-          "vocal",
-          "material",
-          "mgc"
-        ],
-        "attack": {
-          "bonus": "",
-          "flat": false
-        },
-        "cover": null,
-        "crewed": false,
-        "enchantment": null,
-        "summons": null
-      },
-      "ownership": {
-        "default": 0,
-        "GeWA2jI1wFdOxVj5": 3
-      },
-      "folder": null,
-      "sort": 11500000,
-      "_stats": {
-        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.EoHUtMRA7ftylPNt",
-        "duplicateSource": null,
-        "coreVersion": "12.327",
-        "systemId": "dnd5e",
-        "systemVersion": "3.2.1",
-        "createdTime": 1719071386790,
-        "modifiedTime": 1719071386790,
-        "lastModifiedBy": "GeWA2jI1wFdOxVj5"
-      }
-    },
-    {
       "_id": "svMlT2crCYjINWpK",
       "name": "修复术 Mending",
       "type": "spell",
@@ -12141,7 +11537,7 @@
         "GeWA2jI1wFdOxVj5": 3
       },
       "folder": null,
-      "sort": 34400000,
+      "sort": 137500,
       "_stats": {
         "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.Fl4lOWHo82WLp3g7",
         "duplicateSource": null,
@@ -12149,7 +11545,7 @@
         "systemId": "dnd5e",
         "systemVersion": "3.2.1",
         "createdTime": 1719071472186,
-        "modifiedTime": 1719071474969,
+        "modifiedTime": 1719072822697,
         "lastModifiedBy": "GeWA2jI1wFdOxVj5"
       }
     },
@@ -13090,7 +12486,1059 @@
       }
     },
     {
-      "_id": "xlltJrgrxlMEi3Dc",
+      "name": "创造篝火Create Bonfire",
+      "type": "spell",
+      "flags": {
+        "midi-qol": {
+          "AoETargetType": "any",
+          "AoETargetTypeIncludeSelf": true,
+          "autoTarget": "default",
+          "rollAttackPerTarget": "always",
+          "removeAttackDamageButtons": "default",
+          "itemCondition": "",
+          "effectCondition": ""
+        },
+        "midiProperties": {
+          "confirmTargets": "always",
+          "saveDamage": "nodam",
+          "bonusSaveDamage": "fulldam",
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": true,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        },
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal",
+            "somatic",
+            "concentration"
+          ]
+        }
+      },
+      "img": "icons/magic/fire/flame-burning-campfire-rocks.webp",
+      "_id": "RBgHDf1XrfmzUKu6",
+      "effects": [],
+      "system": {
+        "description": {
+          "value": "<p>你在距离之内你能看到的地面上燃起一堆篝火。直到此法术终结，该魔法篝火会占满5立方英尺的空间。当你施放此法术时，所有在篝火所在空间的生物必须通过一次敏捷豁免检定，否则受到1d8点伤害。当生物在一个回合中第一次进入篝火所在的空间，或在篝火所在的空间结束其回合时，其同样必须进行该豁免检定。<br />篝火可以点燃区域内未被穿戴或者携带的可燃物体。<br />你到达5级时，该法术的伤害增加1d8（变为2d8）。11级时再加1d8（变为3d8），17级时再加1d8（变为4d8）。</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "XGE"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": "5",
+          "units": "ft",
+          "type": "cube",
+          "width": null,
+          "prompt": true
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "ability": "",
+        "actionType": "save",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "con",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration",
+          "mgc"
+        ],
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "cover": null,
+        "crewed": false,
+        "enchantment": null,
+        "summons": null
+      },
+      "ownership": {
+        "default": 0,
+        "GeWA2jI1wFdOxVj5": 3
+      },
+      "folder": null,
+      "sort": 45700000,
+      "_stats": {
+        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.qkm8sXy5s1uIujJO",
+        "duplicateSource": null,
+        "coreVersion": "12.327",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.1",
+        "createdTime": 1719072685325,
+        "modifiedTime": 1719072685325,
+        "lastModifiedBy": "GeWA2jI1wFdOxVj5"
+      }
+    },
+    {
+      "name": "轰雷剑 Booming Blade",
+      "type": "spell",
+      "flags": {
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal",
+            "material"
+          ]
+        }
+      },
+      "img": "icons/magic/fire/dagger-rune-enchant-flame-blue.webp",
+      "_id": "b9wTcDaT7SW07X2H",
+      "system": {
+        "description": {
+          "value": "<p>作为施展这个法术的一部分，你必须用你的武器对施法距离内的一个生物进行一次近战攻击，否则法术失败。如果攻击命中，目标受到这次攻击的正常影响，并且被包覆在爆发性的能量之中直到你的下回合开始。如果目标在这之前自愿进行了一次移动，他将立即受到1d8的雷鸣伤害，并且法术结束。<br />戏法的伤害随着你的等级提升而增加。在你5级的时候，这次近战攻击将造成额外1d8雷鸣伤害，并且目标进行移动时受到的伤害提升为2d8。所有伤害骰都会在11级和17级的时候增长1d8。</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "SCAG"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "round"
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": "self",
+          "prompt": true
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "ability": "",
+        "actionType": "other",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "evo",
+        "materials": {
+          "value": "一把武器",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "cover": null,
+        "crewed": false,
+        "enchantment": null,
+        "summons": null,
+        "properties": []
+      },
+      "ownership": {
+        "default": 0,
+        "GeWA2jI1wFdOxVj5": 3
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 6900000,
+      "_stats": {
+        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.96hMNnbvC0O57baz",
+        "duplicateSource": null,
+        "coreVersion": "12.327",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.1",
+        "createdTime": 1719072787626,
+        "modifiedTime": 1719072787626,
+        "lastModifiedBy": "GeWA2jI1wFdOxVj5"
+      }
+    },
+    {
+      "name": "油腻术 Grease",
+      "type": "spell",
+      "flags": {
+        "midi-qol": {
+          "AoETargetType": "any",
+          "AoETargetTypeIncludeSelf": true,
+          "autoTarget": "default",
+          "rollAttackPerTarget": "always",
+          "itemCondition": "",
+          "effectCondition": ""
+        },
+        "midiProperties": {
+          "confirmTargets": "always",
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        },
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal",
+            "somatic",
+            "material"
+          ]
+        }
+      },
+      "img": "icons/magic/air/fog-gas-smoke-orange.webp",
+      "_id": "wBKZZYEg8C7jo6FJ",
+      "effects": [],
+      "system": {
+        "description": {
+          "value": "<div class=\"description \"> 你在施法距离内指定一点，光滑的油脂以该点为中心覆盖一处10尺的方状区域。在法术持续时间内。该区域变为困难地形。\n<br />油脂出现时，站在其范围内的每个生物必须进行一次敏捷豁免，豁免失败则失足倒地。进入该区域或在区域内结束其回合的生物也必须进行该敏捷豁免，豁免失败则失足倒地。\n<br /></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB pg. 246"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": "10",
+          "units": "ft",
+          "type": "square",
+          "width": null,
+          "prompt": true
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "ability": "",
+        "actionType": "save",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "con",
+        "materials": {
+          "value": "A bit of pork rind or butter",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "mgc"
+        ],
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "cover": null,
+        "crewed": false,
+        "enchantment": null,
+        "summons": null
+      },
+      "ownership": {
+        "default": 0,
+        "GeWA2jI1wFdOxVj5": 3
+      },
+      "folder": null,
+      "sort": 43700000,
+      "_stats": {
+        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.ocOtoi8hLFVfkG8V",
+        "duplicateSource": null,
+        "coreVersion": "12.327",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.1",
+        "createdTime": 1719072860508,
+        "modifiedTime": 1719072860508,
+        "lastModifiedBy": "GeWA2jI1wFdOxVj5"
+      }
+    },
+    {
+      "_id": "3nEGfc7KJMIKepIq",
+      "name": "通晓语言 Comprehend Languages",
+      "type": "spell",
+      "flags": {
+        "midiProperties": {
+          "confirmTargets": "always",
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        },
+        "midi-qol": {
+          "rollAttackPerTarget": "always",
+          "itemCondition": "",
+          "effectCondition": ""
+        },
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal",
+            "somatic",
+            "material",
+            "ritual"
+          ]
+        }
+      },
+      "img": "modules/dnd5e_classpack/Nicons/httpcloud3steamusercontentcomugc76489681583455489139F9AD4BE7A34F50744DC49B84CF5A762E0E9646.jpg",
+      "effects": [],
+      "system": {
+        "description": {
+          "value": "<div class=\"description \"> 你在法术持续时间内知晓你所听到所有语言的字面意义。你也可以通过触碰书写的文字来读懂其字面意义。以这种方式阅读每页文字需要花费1分钟的时间。\n<br />某些文字或图形的密语（比如一个奥秘符文）由于不属于书写语言一类所以无法用此法术破译。\n<br /></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB pg. 224"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "target": {
+          "value": "",
+          "units": "",
+          "type": "self",
+          "width": null,
+          "prompt": true
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "ability": "",
+        "actionType": "util",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "div",
+        "materials": {
+          "value": "A pinch of soot and salt",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "mgc"
+        ],
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "cover": null,
+        "crewed": false,
+        "enchantment": null,
+        "summons": null
+      },
+      "ownership": {
+        "default": 0,
+        "GeWA2jI1wFdOxVj5": 3
+      },
+      "folder": null,
+      "sort": 49600000,
+      "_stats": {
+        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.v0KfpSysfp5ug9kx",
+        "duplicateSource": null,
+        "coreVersion": "12.327",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.1",
+        "createdTime": 1719072892204,
+        "modifiedTime": 1719072892204,
+        "lastModifiedBy": "GeWA2jI1wFdOxVj5"
+      }
+    },
+    {
+      "_id": "gInvgphSKB64g6jE",
+      "name": "匕首之云Cloud of Daggers",
+      "type": "spell",
+      "flags": {
+        "midi-qol": {
+          "fumbleThreshold": null,
+          "AoETargetType": "any",
+          "AoETargetTypeIncludeSelf": true,
+          "autoTarget": "default",
+          "rollAttackPerTarget": "always",
+          "removeAttackDamageButtons": "default",
+          "itemCondition": "",
+          "effectCondition": ""
+        },
+        "midiProperties": {
+          "confirmTargets": "always",
+          "saveDamage": "fulldam",
+          "bonusSaveDamage": "fulldam",
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": true,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        },
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal",
+            "somatic",
+            "material",
+            "concentration"
+          ]
+        }
+      },
+      "img": "modules/dnd5e_classpack/Nicons/Ability_Rogue_FanofKnives.png",
+      "effects": [],
+      "system": {
+        "description": {
+          "value": "<div class=\"description \"><div class=\"description \"><p>你在施法距离内指定一点，并以该点为中心，将一个边长5尺的立方区域充满魔法创造的旋转匕首。生物在区域内开始其回合，或者在一个回合内第一次进入该区域时将受到4d4 的挥砍伤害。</p></div><div class=\"description \"><p> </p></div><div class=\"description \"><p>升环施法效应。</p></div><div class=\"description \"><p>使用3 环或更高法术位施展该法术时，你使用的法术位每比2 环高一环，法术的伤害就增加2d4。</p></div><div class=\"description \"><p> </p></div></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB pg. 238"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": "6",
+          "units": "ft",
+          "type": "cube",
+          "width": null,
+          "prompt": true
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "ability": "",
+        "actionType": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "con",
+        "materials": {
+          "value": "一小片玻璃",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "mgc"
+        ],
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "cover": null,
+        "crewed": false,
+        "enchantment": null,
+        "summons": null
+      },
+      "ownership": {
+        "default": 0,
+        "GeWA2jI1wFdOxVj5": 3
+      },
+      "folder": null,
+      "sort": 17500000,
+      "_stats": {
+        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.JzEhXKKRDAmT8axT",
+        "duplicateSource": null,
+        "coreVersion": "12.327",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.1",
+        "createdTime": 1719073057839,
+        "modifiedTime": 1719073057839,
+        "lastModifiedBy": "GeWA2jI1wFdOxVj5"
+      }
+    },
+    {
+      "_id": "uukpSQ48rXqg8kDt",
+      "name": "浮空术 Levitate",
+      "type": "spell",
+      "flags": {
+        "midiProperties": {
+          "confirmTargets": "always",
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": true,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        },
+        "midi-qol": {
+          "rollAttackPerTarget": "always",
+          "itemCondition": "",
+          "effectCondition": ""
+        },
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal",
+            "somatic",
+            "material",
+            "concentration"
+          ]
+        }
+      },
+      "img": "modules/dnd5e_classpack/Nicons/httpcloud3steamusercontentcomugc84258513611589333017F24BD9724E448ABE2599743E9994E2EDA63019.jpg",
+      "effects": [
+        {
+          "name": "浮空术 Levitate",
+          "origin": "Compendium.dnd5e_classpack.new-icon.Item.GNvrHluGdgqD06wZ",
+          "duration": {
+            "rounds": 10,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "5yjyYW7CMJH7Kwmq",
+          "changes": [],
+          "description": "",
+          "transfer": false,
+          "statuses": [],
+          "flags": {
+            "dae": {
+              "disableIncapacitated": false,
+              "selfTarget": false,
+              "selfTargetAlways": false,
+              "dontApply": false,
+              "stackable": "noneName",
+              "showIcon": true,
+              "durationExpression": "",
+              "macroRepeat": "none",
+              "specialDuration": []
+            },
+            "ActiveAuras": {
+              "isAura": false,
+              "aura": "None",
+              "nameOverride": "",
+              "radius": "",
+              "alignment": "",
+              "type": "",
+              "customCheck": "",
+              "ignoreSelf": false,
+              "height": false,
+              "hidden": false,
+              "displayTemp": false,
+              "hostile": false,
+              "onlyOnce": false,
+              "wallsBlock": "system"
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.327",
+            "systemId": "dnd5e",
+            "systemVersion": "3.2.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "modules/dnd5e_classpack/Nicons/httpcloud3steamusercontentcomugc84258513611589333017F24BD9724E448ABE2599743E9994E2EDA63019.jpg",
+          "type": "base",
+          "system": {},
+          "sort": 0
+        }
+      ],
+      "system": {
+        "description": {
+          "value": "<div class=\"description \"> 指定施法距离内你能看见的一个生物或物件，使其垂直上升至多20尺，并在该处维持悬浮直至持续时间结束。该法术可悬浮一个重量至多500磅的目标。一个非自愿的生物可以对法术进行一次体质检定以避免受其影响。\n<br />目标只能通过推或拉一个固定的物件或平面（例如一面墙或者天花板）来进行移动，这种移动方式视为等同于攀爬。你可以在自己回合里将目标的悬浮高度向上或向下改变至多20尺：如果你自身就是该法术的目标，则你可以进行上升和下降并将其作为你移动的一部分；如果你不是该法术的目标，则你可以使用动\n<br />作来移动目标，但目标必须始终处于你的施法距离内。\n<br />法术终止时，仍处于空中的目标会缓缓飘落到地面。\n<br /></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB pg. 255"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "target": {
+          "value": "1",
+          "units": "",
+          "type": "creature",
+          "width": null,
+          "prompt": true
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "ability": "",
+        "actionType": "save",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "trs",
+        "materials": {
+          "value": "Either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration",
+          "mgc"
+        ],
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "cover": null,
+        "crewed": false,
+        "enchantment": null,
+        "summons": null
+      },
+      "ownership": {
+        "default": 0,
+        "GeWA2jI1wFdOxVj5": 3
+      },
+      "folder": null,
+      "sort": 13900000,
+      "_stats": {
+        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.GNvrHluGdgqD06wZ",
+        "duplicateSource": null,
+        "coreVersion": "12.327",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.1",
+        "createdTime": 1719073217158,
+        "modifiedTime": 1719073217158,
+        "lastModifiedBy": "GeWA2jI1wFdOxVj5"
+      }
+    },
+    {
+      "name": "蛛行术 Spider Climb",
+      "type": "spell",
+      "flags": {
+        "midiProperties": {
+          "confirmTargets": "always",
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": true,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        },
+        "midi-qol": {
+          "rollAttackPerTarget": "always",
+          "itemCondition": "",
+          "effectCondition": ""
+        },
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal",
+            "somatic",
+            "material",
+            "concentration"
+          ]
+        }
+      },
+      "img": "icons/magic/control/debuff-chains-blue.webp",
+      "_id": "pdXP8L0vwsB1R8Ww",
+      "effects": [],
+      "system": {
+        "description": {
+          "value": "<div class=\"description \"> 你触碰一个自愿的生物，并使其在法术终止前能够在垂直表面上下或横向移动，其甚至可以在天花板上倒挂着移动而不需要用到双手。另外，目标获得与步行速度相等的攀爬速度。</div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB pg. 277"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "target": {
+          "value": "1",
+          "units": "",
+          "type": "creature",
+          "width": null,
+          "prompt": true
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "ability": "",
+        "actionType": "util",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "trs",
+        "materials": {
+          "value": "A drop of bitumen and a spider",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration",
+          "mgc"
+        ],
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "cover": null,
+        "crewed": false,
+        "enchantment": null,
+        "summons": null
+      },
+      "ownership": {
+        "default": 0,
+        "GeWA2jI1wFdOxVj5": 3
+      },
+      "folder": null,
+      "sort": 12700000,
+      "_stats": {
+        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.FNDS75JLYFQy4WUq",
+        "duplicateSource": null,
+        "coreVersion": "12.327",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.1",
+        "createdTime": 1719073243631,
+        "modifiedTime": 1719073243631,
+        "lastModifiedBy": "GeWA2jI1wFdOxVj5"
+      }
+    },
+    {
+      "_id": "DcOCaTptij16hVmx",
       "name": "守护之链 Warding Bond",
       "type": "spell",
       "flags": {
@@ -13224,26 +13672,15 @@
         "coreVersion": "12.327",
         "systemId": "dnd5e",
         "systemVersion": "3.2.1",
-        "createdTime": 1719071763824,
-        "modifiedTime": 1719071763824,
+        "createdTime": 1719073358753,
+        "modifiedTime": 1719073358753,
         "lastModifiedBy": "GeWA2jI1wFdOxVj5"
       }
     },
     {
-      "_id": "1zS8Bu7SWVagrEoV",
-      "name": "灵体武器 Spiritual Weapon",
+      "name": "防护毒素 Protection from Poison",
       "type": "spell",
       "flags": {
-        "midi-qol": {
-          "fumbleThreshold": null,
-          "AoETargetType": "any",
-          "AoETargetTypeIncludeSelf": true,
-          "autoTarget": "default",
-          "rollAttackPerTarget": "always",
-          "removeAttackDamageButtons": "default",
-          "itemCondition": "",
-          "effectCondition": ""
-        },
         "midiProperties": {
           "confirmTargets": "always",
           "autoFailFriendly": false,
@@ -13257,6 +13694,11 @@
           "toggleEffect": false,
           "ignoreTotalCover": false
         },
+        "midi-qol": {
+          "rollAttackPerTarget": "always",
+          "itemCondition": "",
+          "effectCondition": ""
+        },
         "dnd5e": {
           "migratedProperties": [
             "vocal",
@@ -13264,36 +13706,108 @@
           ]
         }
       },
-      "img": "modules/dnd5e_classpack/Nicons/ability_demonhunter_soulcleave.jpg",
-      "effects": [],
+      "img": "icons/magic/defensive/shield-barrier-glowing-triangle-green.webp",
+      "_id": "TPtr4k1XYAhiV9Sq",
+      "effects": [
+        {
+          "name": "防护毒素 Protection from Poison",
+          "origin": "Compendium.dnd5e_classpack.new-icon.Item.WhS1lv9X52SEYe3c",
+          "duration": {
+            "rounds": 100,
+            "startTime": null,
+            "seconds": 3600,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "krj7lHDlyaAdEiOJ",
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "poison",
+              "priority": 20
+            }
+          ],
+          "description": "",
+          "transfer": false,
+          "statuses": [],
+          "flags": {
+            "dae": {
+              "disableIncapacitated": false,
+              "selfTarget": false,
+              "selfTargetAlways": false,
+              "dontApply": false,
+              "stackable": "noneName",
+              "showIcon": true,
+              "durationExpression": "",
+              "macroRepeat": "none",
+              "specialDuration": []
+            },
+            "ActiveAuras": {
+              "isAura": false,
+              "aura": "None",
+              "nameOverride": "",
+              "radius": "",
+              "alignment": "",
+              "type": "",
+              "customCheck": "",
+              "ignoreSelf": false,
+              "height": false,
+              "hidden": false,
+              "displayTemp": false,
+              "hostile": false,
+              "onlyOnce": false,
+              "wallsBlock": "system"
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.327",
+            "systemId": "dnd5e",
+            "systemVersion": "3.2.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/magic/defensive/shield-barrier-glowing-triangle-green.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0
+        }
+      ],
       "system": {
         "description": {
-          "value": "<div class=\"description \"> 你在施法距离内的一点创造出一把浮空的虚幻武器，并使其持续到法术持续时间结束或你再次施展该法术为止。施展该法术时，你可以对该武器周围5尺内的一个生物发动一次近战法术攻击。若命中，则目标受到1d8＋你的施法关键属性调整值的力场伤害。\n<br />你可以在自己回合内以一个附赠动作让该武器移动至多20尺，并再对它周围5尺内的一个生物发动一次同样的攻击。\n<br />该武器的外形由你决定。而如果施法的牧师侍奉的是一位和特定武器有关的神祇（例如圣库斯伯特St.Cuthbert 的钉头锤、托尔Thor 的锤子），则该法术创造出武器的外形与该武器类似。\n<br /><strong>升环施法效应。</strong>使用3环或更高法术位施展该法术时，你使用的法术位每比2环高两环，法术的伤害就增加1d8。\n<br /></div>",
+          "value": "<div class=\"description \"> 你触碰一个生物。如果处于中毒状态，则中和其所受毒素。如果目标身上具有超过一种毒素，则选择你所了解一种或随机选择其一进行中和。\n<br />在法术持续时间内，目标对抗中毒所豁免具有优势，并且对毒素伤害具有抗性。\n<br /></div>",
           "chat": ""
         },
         "source": {
-          "custom": "PHB pg. 278"
+          "custom": "PHB pg. 270"
         },
         "activation": {
-          "type": "bonus",
+          "type": "action",
           "cost": 1,
           "condition": ""
         },
         "duration": {
           "value": "1",
-          "units": "minute"
+          "units": "hour"
         },
         "target": {
-          "value": "5",
-          "units": "ft",
-          "type": "square",
+          "value": "1",
+          "units": "",
+          "type": "creature",
           "width": null,
           "prompt": true
         },
         "range": {
-          "value": 60,
-          "long": 0,
-          "units": "ft"
+          "value": null,
+          "long": null,
+          "units": "touch"
         },
         "uses": {
           "value": 0,
@@ -13304,24 +13818,19 @@
         },
         "consume": {
           "type": "",
-          "target": "",
+          "target": null,
           "amount": null,
           "scale": false
         },
         "ability": "",
-        "actionType": "msak",
+        "actionType": "util",
         "chatFlavor": "",
         "critical": {
           "threshold": null,
           "damage": ""
         },
         "damage": {
-          "parts": [
-            [
-              "1d8 + @mod",
-              "force"
-            ]
-          ],
+          "parts": [],
           "versatile": ""
         },
         "formula": "",
@@ -13331,7 +13840,7 @@
           "scaling": "spell"
         },
         "level": 2,
-        "school": "evo",
+        "school": "abj",
         "materials": {
           "value": "",
           "consumed": false,
@@ -13343,8 +13852,8 @@
           "prepared": false
         },
         "scaling": {
-          "mode": "level",
-          "formula": "1d8"
+          "mode": "none",
+          "formula": ""
         },
         "properties": [
           "vocal",
@@ -13365,15 +13874,15 @@
         "GeWA2jI1wFdOxVj5": 3
       },
       "folder": null,
-      "sort": 48900000,
+      "sort": 29000000,
       "_stats": {
-        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.uLEtdTC6yBxuLNFe",
+        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.WhS1lv9X52SEYe3c",
         "duplicateSource": null,
         "coreVersion": "12.327",
         "systemId": "dnd5e",
         "systemVersion": "3.2.1",
-        "createdTime": 1719071794375,
-        "modifiedTime": 1719071794375,
+        "createdTime": 1719073371436,
+        "modifiedTime": 1719073371436,
         "lastModifiedBy": "GeWA2jI1wFdOxVj5"
       }
     }
