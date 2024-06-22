@@ -637,5 +637,7 @@ DragonGleam
 
 红之塞维林Severin the Red、蓝之加尔万Galvan the Blue、绿之内洛维Neronvain the Green、黑之瑞兹米尔Rezmir the Black和白之瓦拉姆Varram the White。
 提瑪亞特萬歲，他必將崛起
+
+雪白的格拉茲哈爾Glazhael，逐雲者Cloudvhaser，純正北方血統的美龍。
 ```
 

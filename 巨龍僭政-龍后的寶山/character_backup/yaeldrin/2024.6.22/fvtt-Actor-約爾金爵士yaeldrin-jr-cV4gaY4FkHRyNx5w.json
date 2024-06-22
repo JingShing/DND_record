@@ -9262,7 +9262,7 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Actor.cV4gaY4FkHRyNx5w.Item.JVsOcyBRnFnXdEQU",
+        "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.327",
         "systemId": "dnd5e",
@@ -13883,6 +13883,149 @@
         "systemVersion": "3.2.1",
         "createdTime": 1719073371436,
         "modifiedTime": 1719073371436,
+        "lastModifiedBy": "GeWA2jI1wFdOxVj5"
+      }
+    },
+    {
+      "_id": "Cp25AIFsFmSQssAh",
+      "name": "造水/枯水术 Create or Destroy Water",
+      "type": "spell",
+      "flags": {
+        "midi-qol": {
+          "AoETargetType": "any",
+          "AoETargetTypeIncludeSelf": true,
+          "autoTarget": "default",
+          "rollAttackPerTarget": "always",
+          "itemCondition": "",
+          "effectCondition": ""
+        },
+        "midiProperties": {
+          "confirmTargets": "always",
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        },
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal",
+            "somatic",
+            "material"
+          ]
+        }
+      },
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Arcane_ManaTap.png",
+      "effects": [],
+      "system": {
+        "description": {
+          "value": "<div class=\"description \"> 你施法创造水或者使水枯竭。\n<br /><strong>造水Create Water。</strong>你在施法距离内一个打开的容器里创造10加仑干净的水。或以降雨的方式在施法距离内一处30尺的立方区域降下等量水分并浇灭区域内不受遮盖的火苗。\n<br /><strong>枯水Destory Water。</strong>你使施法距离内一个打开的容器里的10加仑水分枯竭不见。或者使施法距离内一片30尺立方区域的浓雾消失不见。\n<br /><strong>升环施法效应。</strong>使用2环或更高法术位施展该法术时，你使用的法术位每比1环高一环，法术就多创造或枯竭10加仑额外的水分，或者影响的立方区域边长增加5尺。\n<br /></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "PHB pg. 229"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "value": "30",
+          "units": "ft",
+          "type": "cube",
+          "width": null,
+          "prompt": true
+        },
+        "range": {
+          "value": 30,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "ability": "",
+        "actionType": "util",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "trs",
+        "materials": {
+          "value": "A drop of water if creating water or a few grains of sand if destroying it.",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "mgc"
+        ],
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "cover": null,
+        "crewed": false,
+        "enchantment": null,
+        "summons": null
+      },
+      "ownership": {
+        "default": 0,
+        "GeWA2jI1wFdOxVj5": 3
+      },
+      "folder": null,
+      "sort": 27600000,
+      "_stats": {
+        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.V843ppI7fUmc5Gd6",
+        "duplicateSource": null,
+        "coreVersion": "12.327",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.1",
+        "createdTime": 1719076793654,
+        "modifiedTime": 1719076793654,
         "lastModifiedBy": "GeWA2jI1wFdOxVj5"
       }
     }
